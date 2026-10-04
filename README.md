@@ -15,9 +15,10 @@ Such a model would be a powerful tool and the base of implementing other powerfu
 The AI model would also be very helpful for expanding databases. Currently, all the MDC text versions of real-world artifacts have to be created manually. This process requires not only a lot of knowledge of the topic, but also takes a lot of time. Because of this, the process of digitalization of hieroglyphs is slowed down. Not only real-world artifacts, but also old publications, written by Egyptologists would be a large treasure to databases.
 
 ## Project Goals
-1. creating a large dataset of labeled Egyptian hieroglyphs.
+* Create a large dataset of labeled Egyptian hieroglyphs.
+  * Define a standard for the labels to uniform the structure of the dataset
   * Add own labels generated from photos of hieroglyphs taken by myself.
-  * Add labels from data sets from other repositories and sources. It is important to check licenses.
-2. License the dataset under a license which enables use in other open source projects. It is important to check that the license for the dataset is compatible with the separate licenses of the dataset sources.
-3. Create a tool to easily label hieroglyphs to increase the dataset size. 
+  * Add labels extracted from data sets from other repositories and sources. It is important to check licenses.
+  * License the dataset under a license which enables use in other open source projects. It is important to check that the license for the dataset is compatible with the separate licenses of the dataset sources.
+* Create a toolset to easily increase the size of the dataset
   * 
