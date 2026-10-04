@@ -4,7 +4,7 @@ Advanced set of data and tools for next level Hieroglyph recognition.
 > [!IMPORTANT]
 > The work on this repository is still in progress
 
-# Introduction
+## Introduction
 
 When you look around the web you can see a lot of amateur projects aiming to create AI models which can successfully recognize Egyptian hieroglyphs. In each project, the AI model should recognize the gardener code of the hieroglyphs presented in a picture. Although a lot of people tried to implement this, I've never found an open source model which can be used successfully in real-world applications.
 
@@ -12,4 +12,12 @@ In my opinion, such a model should not only be able to recognize one hieroglyph 
 
 Such a model would be a powerful tool and the base of implementing other powerful tools which can be used by Egyptologists. For example, a hieroglyph translator combined with this AI model would be able to generate a translation of a hieroglyphic artifact given in a picture.
 
-The AI model would also be very helpful for expanding databases. Currently, all the MDC texts versions of real-world artifacts have to be created manually. Which requires not only a lot of knowledge of the topic, but also takes a lot of time. Because of this, the process of digitalization of hieroglyphs is slowed down. Not only real-world artifacts, but also old publications, written by Egyptologists would be a large treasure to databases.
+The AI model would also be very helpful for expanding databases. Currently, all the MDC text versions of real-world artifacts have to be created manually. This process requires not only a lot of knowledge of the topic, but also takes a lot of time. Because of this, the process of digitalization of hieroglyphs is slowed down. Not only real-world artifacts, but also old publications, written by Egyptologists would be a large treasure to databases.
+
+## Project Goals
+1. creating a large dataset of labeled Egyptian hieroglyphs.
+  * Add own labels generated from photos of hieroglyphs taken by myself.
+  * Add labels from data sets from other repositories and sources. It is important to check licenses.
+2. License the dataset under a license which enables use in other open source projects. It is important to check that the license for the dataset is compatible with the separate licenses of the dataset sources.
+3. Create a tool to easily label hieroglyphs to increase the dataset size. 
+  * 
