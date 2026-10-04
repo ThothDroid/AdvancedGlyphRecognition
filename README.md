@@ -29,3 +29,12 @@ The AI model would also be very helpful for expanding databases. Currently, all 
   * Tools to automatically create training data from hieroglyphic fonts (by applying transformation, color filters and shadows to the signs). [See here](https://medium.com/@billthoetals/teaching-ai-to-read-hieroglyphs-building-a-glyph-reader-from-scratch-49243276797f)
 
 * Create an open source AI model for hieroglyph recognition from the dataset.
+
+## Roadmap and Development
+
+I plan to work on the goals iterative. One iteration consists of:
+
+1. Expand the dataset from different sources.
+2. Simultaneously develop tools when needed.
+3. _Optional: Change structure of the AI model_
+4. Train the AI model with the new dataset
