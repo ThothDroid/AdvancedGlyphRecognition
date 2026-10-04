@@ -16,9 +16,12 @@ The AI model would also be very helpful for expanding databases. Currently, all 
 
 ## Project Goals
 * Create a large dataset of labeled Egyptian hieroglyphs.
-  * Define a standard for the labels to uniform the structure of the dataset
-  * Add own labels generated from photos of hieroglyphs taken by myself.
-  * Add labels extracted from data sets from other repositories and sources. It is important to check licenses.
-  * License the dataset under a license which enables use in other open source projects. It is important to check that the license for the dataset is compatible with the separate licenses of the dataset sources.
-* Create a toolset to easily increase the size of the dataset
-  * 
+ * Define a standard for the labels to uniform the structure of the dataset.
+ * Add own labels generated from photos of hieroglyphs taken by myself.
+ * Add labels extracted from data sets from other repositories and sources. It is important to check licenses.
+ * License the dataset under a license which enables use in other open source projects. It is important to check that the license for the dataset is compatible with the separate licenses of the dataset sources.
+* Create a toolset to easily increase the size of the dataset. This toolset should contain:
+ * Tools (scripts) to extract the information of another dataset and import it into this dataset.
+ * Tools to easily label hieroglyphs to extract data from an image.
+ * Tools to automatically create training data from hieroglyphic fonts (by applying transformation, color filters and shadows to the signs).
+* Create an open source AI model for hieroglyph recognition from the dataset.
