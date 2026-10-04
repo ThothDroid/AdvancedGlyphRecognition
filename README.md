@@ -26,6 +26,6 @@ The AI model would also be very helpful for expanding databases. Currently, all 
 
   * Tools (scripts) to extract the information of another dataset and import it into this dataset.
   * Tools to easily label hieroglyphs to extract data from an image.
-  * Tools to automatically create training data from hieroglyphic fonts (by applying transformation, color filters and shadows to the signs).
+  * Tools to automatically create training data from hieroglyphic fonts (by applying transformation, color filters and shadows to the signs). [See here](https://medium.com/@billthoetals/teaching-ai-to-read-hieroglyphs-building-a-glyph-reader-from-scratch-49243276797f)
 
 * Create an open source AI model for hieroglyph recognition from the dataset.
